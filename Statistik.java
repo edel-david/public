@@ -55,16 +55,13 @@ public class Statistik {
         return mittelwert;
     }
     public static double streuung(double[] feld,double mwert){
-        double streuungq = 0;
+        double streuungq = 0.0;
         for(int i=0;i<feld.length;i++){
-            
             streuungq+=Math.pow(feld[i]-mwert,2.0)/(feld.length-1);
-            System.out.println("add ist: "+streuungq);
         }
-
         return Math.sqrt(streuungq);
-        // frage 3:  int[] i=new int[3];    int[] b={1,2,4}     int[] c; c=new int[] {1,3,2}; 
+        
     }
-
+    // frage 3:  int[] i=new int[3];    int[] b={1,2,4}     int[] c; c=new int[] {1,3,2}; 
 }
 
