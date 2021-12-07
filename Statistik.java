@@ -63,6 +63,8 @@ public class Statistik {
         }
 
         return Math.sqrt(streuungq);
+        // frage 3:  int[] i=new int[3];    int[] b={1,2,4}     int[] c; c=new int[] {1,3,2}; 
     }
 
 }
+
