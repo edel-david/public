@@ -4,10 +4,10 @@ public class LinAusgleich {
     
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
-        double[] x=vektorEinlesen();
-        double[] y=vektorEinlesen();
-        // double[] x= {104.0,113.0,130.0,137.0,152.0,178.0,191.0,208.0,227.0,238.0};
-        // double[] y= {10.4,10.4,11.8,13.0,15.5,19.0,19.0,21.6,31.0,32.4};
+        // double[] x=vektorEinlesen();
+        // double[] y=vektorEinlesen();
+        double[] x= {104.0,113.0,130.0,137.0,152.0,178.0,191.0,208.0,227.0,238.0};
+        double[] y= {10.4,10.4,11.8,13.0,15.5,19.0,19.0,21.6,31.0,32.4};
         double[][] A=new double[x.length][2];
         for(int i=0;i<x.length;i++){
             A[i]= new double[] {1.0,x[i]};
